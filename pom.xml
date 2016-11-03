@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mycompany.game</groupId>
     <artifactId>unity-example</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>ScratchExtension</version>
     <packaging>pom</packaging>
     <name>unity-example</name>
 

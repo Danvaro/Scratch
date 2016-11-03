@@ -28,7 +28,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.5" />
-      <module name="extension" target="1.5" />
+      <module name="extension" target="1.6" />
       <module name="unity-example" target="1.5" />
     </bytecodeTargetLevel>
   </component>

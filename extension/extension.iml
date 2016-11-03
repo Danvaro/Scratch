@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -12,7 +12,7 @@
     <orderEntry type="module-library">
       <library name="Maven: smartfox-2x-server:smartfox:2.0.1">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../common/../misc/tpl/sfs2x/sfs2x.jar!/" />
+          <root url="jar://$MODULE_DIR$/../misc/tpl/sfs2x/sfs2x.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -21,7 +21,7 @@
     <orderEntry type="module-library">
       <library name="Maven: smartfox-2x-server:smartfox-core:2.0.1">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../common/../misc/tpl/sfs2x/sfs2x-core.jar!/" />
+          <root url="jar://$MODULE_DIR$/../misc/tpl/sfs2x/sfs2x-core.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -30,7 +30,7 @@
     <orderEntry type="module-library">
       <library name="Maven: smartfox-2x-server:smartfox-boot:2.0.1">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../common/../misc/tpl/sfs2x/boot.jar!/" />
+          <root url="jar://$MODULE_DIR$/../misc/tpl/sfs2x/boot.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -39,7 +39,7 @@
     <orderEntry type="module-library">
       <library name="Maven: smartfox-2x-server:smartfox-js:2.0.1">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../common/../misc/tpl/sfs2x/js.jar!/" />
+          <root url="jar://$MODULE_DIR$/../misc/tpl/sfs2x/js.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

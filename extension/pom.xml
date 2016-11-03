@@ -3,10 +3,22 @@
     <parent>
         <artifactId>unity-example</artifactId>
         <groupId>com.mycompany.game</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>ScratchExtension</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>extension</artifactId>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <properties>
         <main.rootDir>${project.basedir}/..</main.rootDir>
