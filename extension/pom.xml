@@ -17,6 +17,14 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
+                <configuration>
+                    <outputDirectory>C:\Users\Thijs\SmartFoxServer_2X\SFS2X\extensions\gameExtension</outputDirectory>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 

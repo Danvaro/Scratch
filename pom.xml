@@ -30,6 +30,12 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.0.0</version>
+                <type>maven-plugin</type>
+            </dependency>
+            <dependency>
                 <artifactId>smartfox</artifactId>
                 <groupId>smartfox-2x-server</groupId>
                 <version>${smartfox.version}</version>
@@ -61,4 +67,31 @@
         </dependencies>
     </dependencyManagement>
     <!-- ... -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>2.4.1</version>
+                <configuration>
+                    <filesets>
+                        <fileset>
+                            <directory>C:\Users\Thijs\SmartFoxServer_2X\SFS2X\extensions\__lib__</directory>
+                            <includes>
+                                <include>**/*</include>
+                            </includes>
+                            <followSymlinks>false</followSymlinks>
+                        </fileset>
+                        <fileset>
+                            <directory>C:\Users\Thijs\SmartFoxServer_2X\SFS2X\extensions\gameExtension</directory>
+                            <includes>
+                                <include>**/*</include>
+                            </includes>
+                            <followSymlinks>false</followSymlinks>
+                        </fileset>
+                    </filesets>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

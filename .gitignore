@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+/misc/tpl/sfs2x/boot.jar
+/misc/tpl/sfs2x/sfs2x-core.jar
+/misc/tpl/sfs2x/sfs2x.jar
+/misc/tpl/sfs2x/js.jar
+/extension/target/
+/common/target/
+.gitignore
+.idea/libraries/Maven__com_mycompany_game_common_ScratchExtension.xml
+common/src/
+common/target/
+extension/target/
+help.txt
+jaroutput/
+misc/scripts/
+stopsfs2x.bat
+/misc/
