@@ -14,12 +14,10 @@ public class MainExtension extends SFSExtension implements ISFSExtension {
 
     private void addRequestHandlers() {
         addEventHandler(SFSEventType.USER_LOGIN, LoginHandler.class);
-
     }
 
     private void databaseConnection() {
+
         DatabaseConnection dataCon = new DatabaseConnection("localhost", 27017, "scratch", "users");
     }
-
-
 }
