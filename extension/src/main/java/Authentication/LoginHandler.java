@@ -34,7 +34,7 @@ public class LoginHandler extends BaseServerEventHandler {
         ensurePlayerUsernameNotEmpty(playerusername);
         ensurePlayerPasswordNotEmpty(playerpassword);
         user = findUserInDatabase(playerusername);
-        password = (String) user.get("password");
+        password = (String)user.get("password");
         checkUserPasswordFromDatabase(session, password, playerpassword);
     }
 
