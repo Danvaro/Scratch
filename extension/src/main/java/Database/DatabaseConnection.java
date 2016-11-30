@@ -9,8 +9,8 @@ import org.bson.Document;
 
 public class DatabaseConnection extends SFSExtension implements ISFSExtension {
 
-    public MongoClient mongoClient;
-    public MongoDatabase scratch;
+    private MongoClient mongoClient;
+    private MongoDatabase scratch;
     public static MongoCollection<Document> users;
 
     @Override
@@ -30,6 +30,7 @@ public class DatabaseConnection extends SFSExtension implements ISFSExtension {
     }
 
     private void handleError(Exception e) {
+
         trace(e);
     }
 
